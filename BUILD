@@ -41,7 +41,10 @@
                     "pstdint.h",
                     "sha1.h"
     ],
-    "gcc" : { "cc_compile_args": [ "-Wno-error=unused-but-set-variable" ] }
+    "gcc" : {
+      "cc_compile_args": [ "-Wno-error=unused-but-set-variable" ],
+      "header_compile_args": [ "-Wno-error=strict-aliasing" ]
+    }
 } },
 { "cc_binary": {
     "name": "benchmark",
