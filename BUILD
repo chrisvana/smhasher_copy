@@ -44,7 +44,8 @@
     "gcc" : {
       "cc_compile_args": [ "-Wno-error=unused-but-set-variable" ],
       "header_compile_args": [ "-Wno-error=strict-aliasing" ]
-    }
+    },
+    "licenses": [ "http://opensource.org/licenses/mit-license.php" ]
 } },
 { "cc_binary": {
     "name": "benchmark",
